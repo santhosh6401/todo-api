@@ -1,0 +1,12 @@
+server:
+  port: 8087
+  servlet:
+    context-path: "/application/todo/v1"
+
+spring:
+  output:
+    ansi:
+      enabled: always
+
+  banner:
+    location: classpath:banner.txt
